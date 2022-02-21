@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;500;700&display=swap');
+
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container-logo {
+    text-align: center;
+    background-color: #FFC107;
+}
+
+/* Página Principal */
+
+nav {
+    background-color: #FFA000;
+}
+
+.menu {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+    list-style: none;
+}
+
+.menu-item-link:hover{
+    color: #ffc107;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 30px;
+}
+
+.risoto-abobora {
+    font-size: 50px;
+    color: #FFA000;
+    margin-top: 107px;
+    margin-bottom: 28px;
+}
+
+.img-risoto {
+    width: 592px;
+    height: 311px;
+    left: 120px;
+}
+
+.main-principal {
+    display: flex;
+    margin-bottom: 166px;
+    margin-left: 120px;
+}
+
+.caracteristica {
+    margin-top: 25px;
+}
+
+.descricao:hover {
+    color: #41b325;
+}
+
+.descricao {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #176902;
+    display: inline;
+    border: 1px solid;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.ingredientes {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-bottom: -10px;
+}
+
+.receita-risoto {
+    font-size: 20px;
+}
+
+.texto-video {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 37px;
+}
+
+iframe {
+    width: 580px;
+    height: 317px;
+    left: 120px;
+    top: 1303px;
+    margin-bottom: 35px;
+}
+
+.preparo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.texto-preparo {
+    font-size: 20px;
+    width: 592px;
+}
+
+aside {
+    margin-left: 192px;
+    margin-right: 191px;
+}
+
+.texto-relacionadas {
+    margin-top: 190px;
+    color: #FFA000;
+    font-size: 30px;
+
+}
+
+.img-relacionadas {
+    Width: 345px;
+    Height: 342px;
+    cursor: pointer;
+}
+
+.pratos-relacionados {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    padding: 15px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #FFC107;
+    display: flex;
+    color: white;
+}
+
+.texto-footer {
+    margin-left: 38px;
+    padding: 10px;
+    margin-top: 25px;
+}

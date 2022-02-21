@@ -1,0 +1,39 @@
+.titulo-receitas {
+    margin-left: 160px;
+    font-size: 50px;
+    color:#FFA000;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.todas-receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 80px;
+    margin-bottom: 400px;
+}
+
+.img-todas-receitas {
+    height: 342px;
+    width: 345px;
+    }
+
+.texto-todas-receitas {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.botao-lista {
+    font-size: 24px;
+    width: 185px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    background-color: #176902;
+    color: white;
+    cursor: pointer;    
+}
