@@ -1,3 +1,11 @@
+/* Globais */
+
+/* @media only screen and (max-width: 768px){} */
+
+/* ↑ Responsividade Mobile ↓ */
+
+/* @media only screen and (max-width: 480px){} */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;500;700&display=swap');
 
 * {
@@ -14,6 +22,67 @@ body {
 }
 
 /* Página Principal */
+
+.banner-home {
+    background-image: url("../img/banner-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 30px;
+}
+
+.subtitle-home {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    margin: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.receitas-home {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+gap: 80px;
+margin-bottom: 100px;
+}
+
+.titulo-receitas-home {
+    text-align: center;
+    font-size: 50px;
+    color:#FFA000;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.banner-inf-home {
+    background-image: url("../img/img-footer-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: #FFF;
+    padding-bottom: 400px;
+}
+
+.titulo-banner-inf {
+    font-size: 55px;
+    font-weight: bold;
+    padding: 100px 0px 20px 50px;
+
+}
+
+.texto-banner-inf {
+    font-size: 24px;
+    padding-left: 50px;
+    width: 27ch;
+}
+
+/* Página Risoto */
 
 nav {
     background-color: #FFA000;
@@ -59,6 +128,8 @@ nav {
     display: flex;
     margin-bottom: 166px;
     margin-left: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .caracteristica {
@@ -157,4 +228,137 @@ aside {
     margin-left: 38px;
     padding: 10px;
     margin-top: 25px;
+}
+
+/* Página Receitas */
+
+.titulo-receitas {
+    margin-left: 160px;
+    font-size: 50px;
+    color:#FFA000;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.todas-receitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 80px;
+    margin-bottom: 400px;
+}
+
+.img-todas-receitas {
+    height: 342px;
+    width: 345px;
+    }
+
+.texto-todas-receitas {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.botao-conferir {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    background-color: #176902;
+    color: white;
+    cursor: pointer;    
+}
+
+/* Página Contato */
+
+.banner {
+    background-image: url("../img/img-contato.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 30px;
+}
+
+.cumprimento {
+    margin: 0px;
+    padding-left: 6%;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-lateral {
+    background-image: url("../img/img-contato-2.jpg");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    width: 20%;
+    height: 800px;
+}
+
+.contato {
+    color: #FFC107;
+}
+
+.bloco-contato {
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.bloco-contato form {
+    border: 1px solid #FFC107;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400%;
+    height: 95%;
+    padding: 20px;
+}
+
+.bloco-contato form * {
+    margin: 20px 0;
+}
+
+.enviar {
+height: 40px;
+width: 100px;
+    border: none;
+    background-color: #FFC107;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.text-form,
+.email-form {
+    padding: 10px;
+    padding-left: 20px;
+    width: 95%;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+}
+
+.msg-form {   
+    padding-top: 10px;
+    padding-left: 20px;
+    resize: none;
+    width: 95%;
+    height: 40%;
+    border: 1px solid #FFC107;
+    border-radius: 5px;
+}
+
+@media (max-width: 414px) {
+    .banner-lateral {
+        display: none;
+    }
 }
